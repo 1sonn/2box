@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    width: 740px;
+    height: 516px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 40px 30px 30px 40px;
+    box-shadow: 20px 20px 40px hsl(241, 81%, 97%);
+}
+.div1{
+    width: 375px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+}
+.box1{
+    text-align: center;
+    padding: 20px;
+}
+#You{
+    font-size: 25px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+.percent{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    height: 100vh;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+.percent > h1{
+    padding-top: 40px;
+    font-size: 70px;
+    color: hsl(0, 0%, 100%);
+}
+.percent > p, h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.percent > p{
+    font-weight: 500;
+    color: hsl(241, 100%, 80%);
+}
+#great{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+}
+#torpe{
+    text-align: center;
+    margin-left: 44px;
+    margin-right: 44px;
+    justify-content: center;
+    color: hsl(241, 100%, 80%);
+}
+.div2{
+    width: 375px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.box2 > p{
+    margin: 50px 40px 30px;
+    font-weight: 800;
+    font-size: 24px;
+}
+ul > li{
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 295px;
+    height: 54px;
+    margin-bottom: 15px;
+    border-style: none;
+    font-weight: 500;
+    text-decoration: center;
+}
+#uno{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 98%);
+}
+#dos{
+    color: hsl(39, 100%, 56%);
+    background-color:hsl(39, 100%, 98%);
+}
+#tres{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 98%);
+}
+#cuatro{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 98%);
+}
+#uno > p{
+    margin-left: 88px;
+    margin-right: 10px;
+}
+#dos > p{
+    margin-left: 91px;
+    margin-right: 10px;
+}
+#tres > p{
+    margin-left: 105px;
+    margin-right: 10px;
+}
+#cuatro > p{
+    margin-left: 109px;
+    margin-right: 10px;
+}
+li > p{
+    display: inline;
+    color: hsl(221, 100%, 90%);
+    font-weight: 500;
+}
+li > p > b{
+    color: black;
+}
+img{
+    margin-left: 20px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+button{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    text-align: center;
+    width: 295px;
+    height: 56px;
+    margin-top: 25px;
+    margin-left: 40px;
+    border-radius: 30px;
+    border-style: none;
+    font-weight: 700;
+}
+button:hover{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
